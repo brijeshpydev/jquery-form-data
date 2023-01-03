@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload files</title>
+</head>
+<body>
+    <h1>upload ajax with files</h1>
+    <!-- <div class="container">
+        <form id="ajax_form" action="upload">
+            <label for="name">Name :</label>
+            <input name="name" id="name" type="text" />
+            <label for="name">Email :</label>
+            <input name="email" id="email" type="text" />
+            <input type="submit" value="Submit" />
+        </form>
+    </div> -->
+    <div>
+        <input type="file" id="file-input" multiple>
+    </div>
+    <div class="card-image"></div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static',filename='js/index.js') }}"></script>
+</body>
+
+</html>
